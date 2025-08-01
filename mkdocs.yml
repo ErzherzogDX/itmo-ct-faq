@@ -1,0 +1,6 @@
+site_name: ITMO CT FAQ
+nav:
+  - Home: index.md
+  - About: about.md
+theme: terminal
+
