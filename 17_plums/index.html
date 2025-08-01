@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="generator" content="mkdocs-1.6.1, mkdocs-terminal-4.7.0">
+     
+     
+    <link rel="icon" type="image/png" sizes="192x192" href="../img/android-chrome-192x192.png" />
+<link rel="icon" type="image/png" sizes="512x512" href="../img/android-chrome-512x512.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png" />
+<link rel="shortcut icon" type="image/png" sizes="48x48" href="../img/favicon.ico" />
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png" />
+
+
+    
+ 
+<title>17. Сливы - ITMO CT FAQ</title>
+
+
+<link href="../css/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+<link href="../css/fontawesome/css/solid.min.css" rel="stylesheet">
+<link href="../css/normalize.css" rel="stylesheet">
+<link href="../css/terminal.css" rel="stylesheet">
+<link href="../css/theme.css" rel="stylesheet">
+<link href="../css/theme.tile_grid.css" rel="stylesheet">
+<link href="../css/theme.footer.css" rel="stylesheet">
+<!-- default color palette -->
+<link href="../css/palettes/default.css" rel="stylesheet">
+
+<!-- page layout -->
+<style>
+/* initially set page layout to a one column grid */
+.terminal-mkdocs-main-grid {
+    display: grid;
+    grid-column-gap: 1.4em;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+/*  
+*   when side navigation is not hidden, use a two column grid.  
+*   if the screen is too narrow, fall back to the initial one column grid layout.
+*   in this case the main content will be placed under the navigation panel. 
+*/
+@media only screen and (min-width: 70em) {
+    .terminal-mkdocs-main-grid {
+        grid-template-columns: 4fr 9fr;
+    }
+}</style>
+
+
+
+     
+    
+    
+
+    
+    <!-- search css support -->
+<link href="../css/search/bootstrap-modal.css" rel="stylesheet">
+<!-- search scripts -->
+<script>
+    var base_url = "..",
+    shortcuts = "{}";
+</script>
+<script src="../js/jquery/jquery-1.10.1.min.js" defer></script>
+<script src="../js/bootstrap/bootstrap.min.js" defer></script>
+<script src="../js/mkdocs/base.js" defer></script>
+    
+    
+    
+    
+    <script src="../search/main.js"></script>
+    
+
+    
+</head>
+
+<body class="terminal"><div class="container">
+    <div class="terminal-nav">
+        <header class="terminal-logo">
+            <div id="mkdocs-terminal-site-name" class="logo terminal-prompt"><a href="/" class="no-style">ITMO CT FAQ</a></div>
+        </header>
+        
+        <nav class="terminal-menu">
+            
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href=".." class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">Главная</span>
+                    </a>
+                    <meta property="position" content="0">
+                </li>
+                
+                
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../add/" class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">О проекте</span>
+                    </a>
+                    <meta property="position" content="1">
+                </li>
+                
+                    
+                    
+
+
+<li property="itemListElement" typeof="ListItem">
+    <a href="#" class="menu-item" data-toggle="modal" data-target="#mkdocs_search_modal" property="item" typeof="SearchAction">
+        <i aria-hidden="true" class="fa fa-search"></i> <span property="name">Search</span>
+    </a>
+    <meta property="position" content="2">
+</li>
+                    
+            </ul>
+            
+        </nav>
+    </div>
+</div>
+        
+    <div class="container">
+        <div class="terminal-mkdocs-main-grid"><aside id="terminal-mkdocs-side-panel"><nav>
+  
+    <ul class="terminal-mkdocs-side-nav-items">
+        
+          
+
+
+
+<li class="terminal-mkdocs-side-nav-li">
+    
+    
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="..">Главная</a>
+        
+    
+    
+    
+  </li>
+        
+          
+
+
+
+<li class="terminal-mkdocs-side-nav-li">
+    
+    
+        
+        
+
+        
+            
+    
+        
+        <span class="
+        
+    
+
+    terminal-mkdocs-side-nav-item--active terminal-mkdocs-side-nav-section-no-index">FAQ</span>
+    
+    
+        
+      
+        
+            <ul class="terminal-mkdocs-side-nav-li-ul">
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../1_base/">1. Самое важное</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../2_education/">2. Учеба</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../3_dormitory/">3. Общежитие</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../4_arrival/">4. Прибытие в СПб</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../5_medicine/">5. Медицина</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../6_army/">6. Армия</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../7_foreigners/">7. Иностранные граждане</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../8_contract/">8. Обучение по контракту</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../9_english/">9. Английский</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../10_sport/">10. Физкультура</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../11_science/">11. Стажировки и наука</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../12_icpc/">12. Спортивное программирование</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../13_isu/">13. Электронные сервисы и департаменты ИТМО</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../14_bonuses/">14. Студенческие возможности и бонусы</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../15_scholarship/">15. Стипендии</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../16_leave/">16. Академический отпуск, перевод, отчисление</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        <span class="
+
+    terminal-mkdocs-side-nav-item--active">17. Сливы</span>
+    
+    </li>
+            
+            
+    </ul>
+        
+    
+  </li>
+        
+          
+
+
+
+<li class="terminal-mkdocs-side-nav-li">
+    
+    
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../add/">О проекте</a>
+        
+    
+    
+    
+  </li>
+        
+    </ul>
+  
+</nav>
+</aside>
+            <main id="terminal-mkdocs-main-content">
+<section id="mkdocs-terminal-content">
+    <h1 id="_1">СЛИВЫ</h1>
+<h4 id="_2">Содержание</h4>
+<ol>
+<li><a href="https://erzherzogdx.github.io/itmo-ct-faq/17_plums/#_1">Как работает слив в ванной в общаге?</a></li>
+<li><a href="https://erzherzogdx.github.io/itmo-ct-faq/17_plums/#_2">Отличается ли слив в блоке и коридорке?</a></li>
+<li><a href="https://erzherzogdx.github.io/itmo-ct-faq/17_plums/#_3">Что делать, если вода в слив уходит, а пена нет?</a></li>
+<li><a href="https://erzherzogdx.github.io/itmo-ct-faq/17_plums/#_4">Будут ли сливы распреда?</a></li>
+<li><a href="https://erzherzogdx.github.io/itmo-ct-faq/17_plums/#_5">Сколько каток можно слить до отчисления?</a></li>
+<li><a href="https://erzherzogdx.github.io/itmo-ct-faq/17_plums/#_6">Как выбирать сливы на базаре?</a></li>
+<li><a href="https://erzherzogdx.github.io/itmo-ct-faq/17_plums/#_7">Где лучшие сливы?</a></li>
+<li><a href="https://erzherzogdx.github.io/itmo-ct-faq/17_plums/#_8">Когда сливы могут быть опасны?</a></li>
+<li><a href="https://erzherzogdx.github.io/itmo-ct-faq/17_plums/#_9">Сливо́вый или сли́вовый?</a></li>
+<li><a href="https://erzherzogdx.github.io/itmo-ct-faq/17_plums/#_10">Какая ты слива?</a></li>
+</ol>
+<hr />
+<h4 id="_3">Как работает слив в ванной в общаге?</h4>
+<p>Обычно слив работает хорошо, но если вы считаете, что есть некая проблема, и не можете решить её самостоятельно, то обратитесь к и̶н̶ж̶и̶р̶а̶м̶ инженерам</p>
+<h4 id="_4">Отличается ли слив в блоке и коридорке?</h4>
+<p>В целях отсутствия дискриминации между людьми в блоке и в коридорках слив работает одинаково и там, и там. Если вы считаете иначе, то можете обратиться в суд согласно <a href="https://77.xn--b1aew.xn--p1ai/%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B-%D0%BF%D0%BE-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8E-%D1%8D%D0%BA%D1%81%D1%82%D1%80%D0%B5%D0%BC%D0%B8%D0%B7%D0%BC%D1%83/%D1%80%D0%B0%D0%B7%D1%8A%D1%8F%D1%81%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D1%85-%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9-%D1%83%D0%BA-%D1%80%D1%84/%D1%83%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0%D1%8F-%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B7%D0%B0-%D1%81%D0%BE%D0%B2%D0%B5%D1%80%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-">282 статье УК РФ</a>, однако согласно ответам на информационном пространстве <a href="https://otvet.mail.ru/question/201750228">mail.ru</a>, это мало чем поможет, к сожалению</p>
+<h4 id="_5">Что делать, если вода в слив уходит, а пена нет?</h4>
+<p>Перво-наперво стоит попытаться решить проблему самому. Например, полить водичку на пену так, чтобы она утекла в сторону слива. Если решить проблему самостоятельно не удается, лучше обратиться к и̶н̶ж̶и̶р̶а̶м̶ инженерам</p>
+<h4 id="_6">Будут ли сливы распреда?</h4>
+<p>Нет, не будут, но если найдёте, то вы сами себе злой буратино. Распред нужен для того, чтобы вы попали в наиболее комфортную группу для вас. А если вы попадёте в группу выше или ниже вашего настоящего уровня, то вам будет либо чересчур просто, либо же наоборот очень сложно. А теперь, пока другие кураторы не заметили, вот вам <a href="https://drive.google.com/file/d/1SfXhsR1GXPy7n4Pqueygnak86YX9Lu1Y/view?usp=sharing">слив контеста по информатике</a> и <a href="https://drive.google.com/file/d/1sUEo2xzg93yAO_jQfoZ9N3b41kf2zY4Y/view?usp=sharing">слив по математике</a></p>
+<h4 id="_7">Сколько каток можно слить до отчисления?</h4>
+<p>Опытным путём было выяснено, что 100 часов в Among Us хватает для того, чтобы не вытянуть учёбу и взять академ.</p>
+<p>Также нельзя не учесть опыт Дениса Прасолова, который играет в доту по ночам и употребляет спиртное в течение дня. Время показало, что этого достаточно, чтобы набрать 7 долгов во втором семестре.</p>
+<p>Однако стоит прислушаться к экспертному мнению из КТ-флуда и КТшного чата по доте:</p>
+<p>Сколько каток можно слить до отчисления?</p>
+<blockquote>
+<p>Одну<br />
+Потом нияз отчислит за неуспеваемость по доте<br />
+— <strong>Дарья Гречишкина, выпускница 2022 года</strong></p>
+<p>Две<br />
+— <strong>Виталий Аксенов, доцент</strong></p>
+</blockquote>
+<h4 id="_8">Как выбирать сливы на базаре?</h4>
+<p>Сливы могут отличаться по размеру, цвету и вкусовым качествам. Форма их также может быть разной. Одни сорта отличаются круглыми плодами, другие – вытянутыми или овальными.</p>
+<p><strong>По цвету сливы могут быть:</strong></p>
+<ul>
+<li>желтыми;</li>
+<li>пурпурные;</li>
+<li>красные;</li>
+<li>темно-фиолетовые;</li>
+<li>зеленые;</li>
+<li>практически черные.</li>
+</ul>
+<p><strong>По вкусу сливы могут быть (в зависимости от характеристики сорта):</strong></p>
+<ul>
+<li>сладкими;</li>
+<li>кисло-сладкими;</li>
+<li>терпкими.</li>
+</ul>
+<p>Спелость слив чаще всего определяют по насыщенности окраски. Если сорт подразумевает желтые плоды, то зеленый цвет кожицы будет признаком ее незрелости. Черной слива становится в несколько этапов: сначала плод зеленый, затем желтый, постепенно он становится красным и только после этого приобретает черный оттенок. Этот нюанс надо учитывать при покупке слив.</p>
+<p><strong>Как выбрать сливы:</strong></p>
+<p>Некоторые сорта слив допускают присутствие на кожице характерного налета. Считать этот нюанс недостатком не стоит. Если продавец сможет озвучить возраст дерева, с которого собирались сливы, то благодаря этой информации можно определить сладость плодов. Чем старше дерево, тем слаще будут сливы.</p>
+<p><strong>Какие сливы надо покупать:</strong></p>
+<ul>
+<li>сливы не должны иметь следы механических повреждений;</li>
+<li>поверхность сливы должна быть гладкой, без вмятин и потемневших пятен;</li>
+<li>аромат сливы можно почувствовать через кожицу, но он не должен быть терпким или напоминать алкогольный напиток;</li>
+<li>слива не должна быть мягкой или чрезмерно твердой, спелый плод всегда упругий (есть сорта-исключения, отличающиеся твердым плодом на протяжении всего процесса созревания);</li>
+<li>поверхность сливы должна быть без трещин;</li>
+<li>У спелой сливы плодоножка сухая, коричневая (может отпасть в результате засыхания);</li>
+<li>окраска сливы должна быть равномерной;</li>
+<li>блеск кожицы допустим для многих сортов слив;</li>
+<li>если на кожице сливы сохранился тонкий слой налета, то это подтверждение того, что сорвали ее недавно.</li>
+</ul>
+<p>Покупать лучше развесные сливы. Плоды, расфасованные в контейнеры или разноцветные пакеты, практически невозможно оценить визуально. Кроме того, не стоит приобретать влажные сливы или плоды в упаковках с конденсатом.</p>
+<p><strong>Какие сливы покупать не стоит:</strong></p>
+<ul>
+<li>от покупки слив с признаками гниения следует отказаться;</li>
+<li>если на сливе есть черные точки, ямки или темные пятна, то это признак влияния паразитов или заболеваний;</li>
+<li>если запах сливы напоминает алкоголь, то в плоде начался процесс гниения;</li>
+<li>трещины на поверхности кожуры свидетельствуют о перезревании сливы;</li>
+<li>зеленая плодоножка является признаком неспелой сливы;</li>
+<li>кожица на сливе не должна быть маслянистой (это признак обработки химикатами);</li>
+<li>неравномерная окраска является признаком перезрелой сливы или начала процесса ее гниения;</li>
+<li>слива не должна быть блестящей (если на плоде есть пленка, напоминающая воск, то его обрабатывали парафином для придания товарного внешнего вида).</li>
+</ul>
+<p>Сливы с трещинами употреблять в пищу можно, но делать это надо как можно быстрее после покупки. Портятся такие плоды быстро, а вкусовые качества изменятся уже через сутки. В домашних условиях неспелые сливы созревают в течение нескольких дней в зависимости от степени незрелости</p>
+<h4 id="_9">Где лучшие сливы?</h4>
+<blockquote>
+<p>Во вкусвилле норм<br />
+Если умеешь выбирать то на любом рынке<br />
+Рядом с Вязьмой есть магазин со вкусными фруктами<br />
+Малый проспект 70<br />
+— <strong>Дарья Гречишкина, выпускница КТ 2022 года</strong></p>
+</blockquote>
+<h4 id="_10">Когда сливы могут быть опасны?</h4>
+<p>Просто представьте себе ситуацию: вы сказали какие-то не очень хорошие вещи, и ваш знакомый записал кружочек с вами в локальный чат в телеграме. А потом этот кружочек оказался в чате потока. А после этого он оказался у студенческого офиса. И вот уже университет собирает дисциплинарную комиссию, которая решает отчислить вас из университета.</p>
+<p>Или, например, вы написали в каком-то чате довольно противоречивые для общества вещи или просто оскорбляли кого ни попадя. Внезапно об этом узнает администрация факультета и вот вас уже вызывают для беседы в деканат.</p>
+<p>К сожалению, кому-то такое и представлять не надо. Все, о ком мы рассказали выше, стали жертвами такого явления как <strong><em>сливы</em></strong>. Жертвами сливов может стать кто угодно, даже вы. Причем организовать сливы может даже тот человек, которому вы сердечно доверяете.</p>
+<p>Мораль истории довольно проста: оценивайте риски, когда пишете что-то в интернете, учитывайте, что можете, совершенно того не подозревая, стать героем подобной истории и появиться в этом разделе FAQ в качестве напоминания для будущих поколений</p>
+<h4 id="_11">Сливо́вый или сли́вовый?</h4>
+<p>Правильный вариант: сли́вовый</p>
+<h4 id="_12">Какая ты слива?</h4>
+</section>
+
+            </main>
+        </div>
+        <hr><footer>
+    <div class="terminal-mkdocs-footer-grid">
+        <div id="terminal-mkdocs-footer-copyright-info">
+             Site built with <a href="http://www.mkdocs.org">MkDocs</a> and <a href="https://github.com/ntno/mkdocs-terminal">Terminal for MkDocs</a>.
+        </div>
+    </div>
+</footer>
+    </div>
+
+    
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="alertdialog" aria-modal="true" aria-labelledby="searchModalLabel">
+    <div class="modal-dialog modal-lg" role="search">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="searchModalLabel">Search</h5>
+                <button type="button" class="close btn btn-default btn-ghost" data-dismiss="modal"><span aria-hidden="true">x</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p id="searchInputLabel">Type to start searching</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" aria-labelledby="searchInputLabel" placeholder="" id="mkdocs-search-query" title="Please enter search terms here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No document matches found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+</body>
+
+</html>
