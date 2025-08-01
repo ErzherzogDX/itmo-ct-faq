@@ -1,6 +1,23 @@
 site_name: ITMO CT FAQ
 nav:
-  - Home: index.md
-  - About: about.md
+  - Главная страница: index.md
+  - Самое важное: 1_base.md
+  - Учеба: 2_education.md
+  - Общежитие: 3_dormitory.md
+  - Прибытие в СПб: 4_arrival.md
+  - Медицина: 5_medicine.md
+  - Армия: 6_army.md
+  - Иностранные граждане: 7_foreigners.md
+  - Обучение по контракту: 8_contract.md
+  - Английский: 9_english.md
+  - Физкультура: 10_sport.md
+  - Стажировки и наука: 11_science.md
+  - Спортивное программирование: 12_icpc.md
+  - Электронные сервисы и департаменты ИТМО: 13_isu.md
+  - Студенческие возможности и бонусы: 14_bonuses.md
+  - Стипендии: 15_scholarship.md
+  - Академический отпуск, перевод, отчисление: 16_leave.md
+  - Сливы: 17_plums.md
+
 theme: terminal
 
