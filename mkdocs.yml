@@ -2,27 +2,27 @@ site_name: ITMO CT FAQ
 nav:
   - Главная: index.md
   - FAQ:
-      - Самое важное: 1_base.md
-      - Учеба: 2_education.md
-      - Общежитие: 3_dormitory.md
-      - Прибытие в СПб: 4_arrival.md
-      - Медицина: 5_medicine.md
-      - Армия: 6_army.md
-      - Иностранные граждане: 7_foreigners.md
-      - Обучение по контракту: 8_contract.md
-      - Английский: 9_english.md
-      - Физкультура: 10_sport.md
-      - Стажировки и наука: 11_science.md
-      - Спортивное программирование: 12_icpc.md
-      - Электронные сервисы и департаменты ИТМО: 13_isu.md
-      - Студенческие возможности и бонусы: 14_bonuses.md
-      - Стипендии: 15_scholarship.md
-      - Академический отпуск, перевод, отчисление: 16_leave.md
-      - Сливы: 17_plums.md
+      - 1. Самое важное: 1_base.md
+      - 2. Учеба: 2_education.md
+      - 3. Общежитие: 3_dormitory.md
+      - 4. Прибытие в СПб: 4_arrival.md
+      - 5. Медицина: 5_medicine.md
+      - 6. Армия: 6_army.md
+      - 7. Иностранные граждане: 7_foreigners.md
+      - 8. Обучение по контракту: 8_contract.md
+      - 9. Английский: 9_english.md
+      - 10. Физкультура: 10_sport.md
+      - 11. Стажировки и наука: 11_science.md
+      - 12. Спортивное программирование: 12_icpc.md
+      - 13. Электронные сервисы и департаменты ИТМО: 13_isu.md
+      - 14. Студенческие возможности и бонусы: 14_bonuses.md
+      - 15. Стипендии: 15_scholarship.md
+      - 16. Академический отпуск, перевод, отчисление: 16_leave.md
+      - 17. Сливы: 17_plums.md
   - О проекте: add.md
-features:
-    - navigation.sections
 
-
-theme: terminal
+theme: 
+    name: terminal
+    features:
+        - navigation.side.toc.hide
 
